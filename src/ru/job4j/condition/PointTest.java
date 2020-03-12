@@ -6,7 +6,7 @@ import ru.job4j.calculator.Fit;
 
 public class PointTest {
     @Test
-    public void distance(){
+    public void distance() {
         int x1 = 0;
         int x2 = 0;
         int y1 = 2;

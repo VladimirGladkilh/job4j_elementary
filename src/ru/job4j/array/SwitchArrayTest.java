@@ -1,6 +1,7 @@
 package ru.job4j.array;
 
 import org.junit.Test;
+
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
@@ -26,7 +27,7 @@ public class SwitchArrayTest {
     public void whenSwap5to1() {
         int[] input = {1, 2, 3, 4};
         int[] expect = {1, 2, 3, 4};
-        int[] rsl = SwitchArray.swap(input, 0, input.length );
+        int[] rsl = SwitchArray.swap(input, 0, input.length);
         assertThat(rsl, is(expect));
     }
 }

@@ -6,7 +6,7 @@ import ru.job4j.calculator.Fit;
 
 public class SqAreaTest {
     @Test
-    public void square(){
+    public void square() {
         int p = 6;
         int k = 2;
         double expected = 2;

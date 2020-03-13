@@ -1,6 +1,7 @@
 package ru.job4j.array;
 
 public class BarleyBreak {
+    @SuppressWarnings("checkstyle:WhitespaceAround")
     public static void main(String[] args) {
         int[][] array = new int[3][3];
         array[0][0] = 1;
@@ -12,6 +13,17 @@ public class BarleyBreak {
         array[2][0] = 7;
         array[2][1] = 8;
         array[2][2] = 9;
+
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                array[i][j] = i + j + 1;
+            }
+        }
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                System.out.println(array[i][j]);
+            }
+        }
 
     }
 }

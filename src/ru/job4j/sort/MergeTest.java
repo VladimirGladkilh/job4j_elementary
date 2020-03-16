@@ -6,6 +6,9 @@ import org.junit.Test;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
+/**
+ * Объединить два массива [#124482]
+ */
 @Ignore
 public class MergeTest {
     @Test

@@ -2,6 +2,9 @@ package ru.job4j.sort;
 
 import java.util.Arrays;
 
+/**
+ * Объединить два массива [#124482]
+ */
 public class Merge {
     public int[] merge(int[] left, int[] right) {
         int[] rsl = new int[left.length + right.length];

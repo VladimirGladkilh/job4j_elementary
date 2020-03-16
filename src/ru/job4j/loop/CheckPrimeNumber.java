@@ -1,5 +1,10 @@
 package ru.job4j.loop;
 
+/**
+ *1 не является простым числом и в цикле не будет вычислений
+ *поэтому сбросим флаг принудительно
+ *хотя можно было бы заменить в 5 на boolean prime = number > 1;
+ */
 public class CheckPrimeNumber {
     public static boolean check(int number) {
         boolean prime = true;
@@ -9,9 +14,6 @@ public class CheckPrimeNumber {
                 break;
             }
         }
-        //1 не является простым числом и в цикле не будет вычислений
-        //поэтому сбросим флаг принудительно
-        //хотя можно было бы заменить в 5 на boolean prime = number > 1;
         if (number == 1) {
             prime = false;
         }

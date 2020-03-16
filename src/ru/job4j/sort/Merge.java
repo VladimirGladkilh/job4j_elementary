@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class Merge {
     public int[] merge(int[] left, int[] right) {
         int[] rsl = new int[left.length + right.length];
-        int i = 0; //счетчик первого массива
-        int j = 0; //счетчик второго массива
-        int k = 0; //счетчик общего массива
+        int i = 0;
+        int j = 0;
+        int k = 0;
         while (i < left.length && j < right.length) {
             if (left[i] > right[j]) {
                 rsl[k] = right[j];
@@ -28,7 +28,6 @@ public class Merge {
             }
             k++;
         }
-        //массивы перебираем по минимальному
         return rsl;
     }
 
